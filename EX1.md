@@ -39,7 +39,6 @@ alter table student add department char(30);
  
 ### SQL QUERY: 
 drop table student;
-
 ### OUTPUT:
 ![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/cbab309a-6a63-42cd-8a81-971a3cdaacca)
 
@@ -47,7 +46,6 @@ drop table student;
 
 ### SQL QUERY: 
 truncate table student;
-
 ### OUTPUT:
 ![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/7875ca13-f294-44b1-b14d-992b56a66878)
 
@@ -55,6 +53,5 @@ truncate table student;
 
 ### SQL QUERY: 
 alter table student rename to mystudent;
-
 ### OUTPUT:
 ![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/ca24025f-47f8-487a-af81-d68bb1ece513)
