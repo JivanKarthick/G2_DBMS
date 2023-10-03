@@ -36,21 +36,18 @@ alter table student add department char(30);
 ![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/eaaf7f33-f23b-49dc-a6da-f07409081b4f)
 
 ### 3) Drop the student table
- 
 ### SQL QUERY: 
 drop table student;
 ### OUTPUT:
 ![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/cbab309a-6a63-42cd-8a81-971a3cdaacca)
 
 ### 4) Delete the student table using truncate keyword
-
 ### SQL QUERY: 
 truncate table student;
 ### OUTPUT:
 ![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/7875ca13-f294-44b1-b14d-992b56a66878)
 
 ### 5) Rename the student table to mystudent
-
 ### SQL QUERY: 
 alter table student rename to mystudent;
 ### OUTPUT:
