@@ -23,32 +23,37 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY: 
 
-create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
+create table student1(rollno int,name char(20),age int,addr varchar(20),phoneno int);
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/2ba6abfa-5bb5-4a16-a016-45625e72944b)
+![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/8c30bf4f-04a8-4969-8bab-b0a731fcf67d)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-alter table student add department char(30);
+alter table student1 add department char(30);
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/eaaf7f33-f23b-49dc-a6da-f07409081b4f)
+![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/8c46886c-34f0-4c28-8a89-09b10bf3a545)
+
 
 ### 3) Drop the student table
 ### SQL QUERY: 
-drop table student;
+drop table mystudent2;
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/cbab309a-6a63-42cd-8a81-971a3cdaacca)
+![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/de0a9f94-e62a-47db-884e-cb507703be09)
+
 
 ### 4) Delete the student table using truncate keyword
 ### SQL QUERY: 
-truncate table student;
+truncate table student1;
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/7875ca13-f294-44b1-b14d-992b56a66878)
+![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/5f60da4d-0f7a-4056-9321-a9a53b56635f)
+
 
 ### 5) Rename the student table to mystudent
 ### SQL QUERY: 
-alter table student rename to mystudent;
+alter table student rename to mystudent2;
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/ca24025f-47f8-487a-af81-d68bb1ece513)
+![image](https://github.com/JivanKarthick/G2_DBMS/assets/121165867/c9836478-e202-401e-8f14-fd1c4eaba589)
+
